@@ -1,5 +1,5 @@
 # Olist E-commerce Analysis
-1. Data Profiling: 99,441 orders from 96,096 unique customers
+1. EDA: 99,441 orders from 96,096 unique customers
    - Repeat Rate = 3.12% → 96.9% of customers never came back.
 2. Defining the Key Question: "Why do 97% of customers never return, and what can be done to improve customer lifetime value?"
 3. Building Hypothesis
