@@ -38,3 +38,4 @@ Limitations:
 - No marketing cost data. CAC unknown — retention campaign ROI cannot be precisely estimated.
 - Limited time range. Effective period: 2017 Q1 – 2018 Q3 (21 months).
 - Brazilian market context. Findings may not directly transfer to other markets.
+- Cohort retention analysis was not performed due to the extremely low repeat rate (3.12%); cohort matrices would be near-empty and add limited analytical value."
