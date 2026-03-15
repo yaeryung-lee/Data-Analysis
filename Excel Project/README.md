@@ -26,9 +26,9 @@
      - KPI: Bottom 10% seller avg review → 3.5★
 
 Tools, Skills, Analytical Frameworks:
-- Excel: Power query, Power pivot, Pivot tables, Data modeling, Formulas, Dashboard
-- Power BI: DAX measures, Star schema, Dashboards
-- AARRR Funnel, Marketplace Flywheel, RFM Segmentation, Prioritization Matrix, Pareto Analysis
+   - Excel: Power query, Power pivot, Pivot tables, Data modeling, Formulas, Dashboard
+   - Power BI: DAX measures, Star schema, Dashboards
+   - AARRR Funnel, Marketplace Flywheel, RFM Segmentation, Prioritization Matrix, Pareto Analysis
 Limitations:
 - GMV ≠ Olist revenue. Olist's take rate (commission %) is unknown.
 - Correlation ≠ causation. Delivery → review relationship (r = −0.30) is correlational, not causal.
