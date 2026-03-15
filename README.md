@@ -1,4 +1,4 @@
-# data-analytics
+# Data Analysis Portfolio
 Entry-level Business Analyst portfolio demonstrating end-to-end analytical capability; from data cleaning to strategic recommendations.
 
 Projects:
