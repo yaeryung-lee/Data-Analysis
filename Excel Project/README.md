@@ -72,7 +72,6 @@
 
 | Metric | Value | 
 |--------|-------|
-| RFM Segmentation | 6 segments | 
 | Correlation (Delivery vs Review) | r = −0.30 | 
 | Revenue Concentration (Seller) | Top 18% = 80% GMV | 
 | Revenue Concentration (Category) | Top 18 categories = 81% GMV | 
