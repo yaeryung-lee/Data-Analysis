@@ -75,7 +75,7 @@
 | Correlation (Delivery vs Review) | r = −0.30 | 
 | Revenue Concentration (Seller) | Top 18% = 80% GMV | 
 | Revenue Concentration (Category) | Top 18 categories = 81% GMV | 
-| Customer Satisfaction (Review) | 4.02 avg | 
+| Customer Satisfaction (Review) | 4.02 avg / 5 | 
 | Time-to-Second-Purchase (median) | 34 days | 
 | Time-to-Second-Purchase (mean) | 87.3 days | 
 | GMV per Repeat Customer | $315.39 | 
