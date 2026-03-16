@@ -8,7 +8,7 @@
    - Key discovery: 99,441 orders from 96,096 unique customers
    2) #### Key Question: "Why do 97% of customers never return, and what can be done to improve customer lifetime value?"
       
-   3) Data Cleaning (uploaded as a file)
+   3) Data Cleaning ([See full profiling →])
       
    4) Building Hypothesis
    
@@ -42,57 +42,47 @@
 
    Revenue & Sales
 
-| Metric | Value | Source |
-|--------|-------|--------|
-| GMV | $15,876,443 | Power Pivot measure |
-| AOV | $159.66 | Power Pivot measure |
-| Basket Size (UPT) | 1.13 | Power Pivot measure |
+| Metric | Value | 
+|--------|-------|
+| GMV | $15,876,443 |
+| AOV | $159.66 |
+| Basket Size (UPT) | 1.13 | 
 
    Customer
 
-| Metric | Value | Source |
-|--------|-------|--------|
-| CLV (proxy) | $165.21 | Quick Calcs |
-| Repeat Purchase Rate | 3.12% | RFM / Customer Economics |
-| Churn Rate | 96.88% (= 1 - Repeat Rate) | Derived |
+| Metric | Value |
+|--------|-------|
+| CLV (proxy) | $165.21 |
+| Repeat Purchase Rate | 3.12% |
+| Churn Rate | 96.88% (= 1 - Repeat Rate) |
 
    Supply Chain / Operations
 
-| Metric | Value | Source |
-|--------|-------|--------|
-| On-Time Delivery Rate (OTDR) | 93.4% | Quick Calcs |
-| Order Cycle Time | 12.0 days avg | Delivery Trend |
-| Fulfillment Time (Seller) | 2.4 days avg | Delivery Trend |
-| Shipping Time (Carrier) | 8.7 days avg | Delivery Trend |
-| P90 Delivery | 22 days | Quick Calcs |
-| P95 Delivery | 29 days | Quick Calcs |
-| SLA Breach Rate | 6.6% | Quick Calcs |
-
-   Product Analytics (AARRR)
-
-| Stage | Analysis | Result |
-|-------|----------|--------|
-| Acquisition | Total Customers | 96,096 |
-| Activation | Total Orders | 99,441 |
-| Retention | Repeat Rate | 3.12% ✗ |
-| Revenue | CLV vs AOV | $165 ≈ $160 ✗ |
-| Referral | Review Score Distribution | 56% 5★, 13% 1★ ⚠ |
+| Metric | Value | 
+|--------|-------|
+| On-Time Delivery Rate (OTDR) | 93.4% |
+| Order Cycle Time | 12.0 days avg | 
+| Fulfillment Time (Seller) | 2.4 days avg | 
+| Shipping Time (Carrier) | 8.7 days avg | 
+| P90 Delivery | 22 days | 
+| P95 Delivery | 29 days | 
+| SLA Breach Rate | 6.6% | 
 
    Other
 
-| Metric | Value | Source |
-|--------|-------|--------|
-| RFM Segmentation | 6 segments | RFM Sheet |
-| Correlation (Delivery vs Review) | r = −0.30 | Quick Calcs |
-| Revenue Concentration (Seller) | Top 18% = 80% GMV | Seller Analysis |
-| Revenue Concentration (Category) | Top 18 categories = 81% GMV | Revenue Analysis |
-| Customer Satisfaction (Review) | 4.02 avg | Power Pivot measure |
-| Time-to-Second-Purchase (median) | 34 days | RFM |
-| Time-to-Second-Purchase (mean) | 87.3 days | RFM |
-| GMV per Repeat Customer | $315.39 | RFM |
-| First-time vs Repeat GMV Split | 94% vs 6% | RFM |
+| Metric | Value | 
+|--------|-------|
+| RFM Segmentation | 6 segments | 
+| Correlation (Delivery vs Review) | r = −0.30 | 
+| Revenue Concentration (Seller) | Top 18% = 80% GMV | 
+| Revenue Concentration (Category) | Top 18 categories = 81% GMV | 
+| Customer Satisfaction (Review) | 4.02 avg | 
+| Time-to-Second-Purchase (median) | 34 days | 
+| Time-to-Second-Purchase (mean) | 87.3 days | 
+| GMV per Repeat Customer | $315.39 | 
+| First-time vs Repeat GMV Split | 94% vs 6% | 
 
-6. Detailed Analysis
+6. Detailed Analysis ([See full profiling →])
 
 Limitations:
 - GMV ≠ Olist revenue. Olist's take rate (commission %) is unknown.
@@ -103,9 +93,9 @@ Limitations:
 - Limited time range. Effective period: 2017 Q1 – 2018 Q3 (21 months).
 - Cohort retention analysis was not performed due to the extremely low repeat rate (3.12%); cohort matrices would be near-empty and add limited analytical value.
 
-Tools & Skills
+Tools, Skills, Frameworks:
    - Excel: Power query, Power pivot, Pivot tables, Data modeling, Formulas, Dashboard
    - Power BI: DAX measures, Star schema, Dashboards
-   - AARRR Funnel, Marketplace Flywheel, RFM Segmentation, Prioritization Matrix, Pareto Analysis
+   - AARRR, Marketplace Flywheel, RFM Segmentation, Prioritization Matrix, Pareto Analysis
    
 Data Source: Olist Brazilian E-commerce Dataset — 9 tables, 100K+ orders, Sept 2016 – Oct 2018.
