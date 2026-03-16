@@ -6,7 +6,7 @@ Excel Ad-hoc analysis Dashboard
 
 ![Excel Dashboard](Dashboards/Ad-hoc_analysis_Dashboard.png)
 
-Power BI Dashboard
+Power BI Dashboards
 
 ![Overview](Dashboards/PowerBI_Overview.png)
 
