@@ -7,7 +7,7 @@
 
 ![Excel Dashboard](Dashboards/Ad-hoc_analysis_Dashboard.png)
 
-= Power BI Dashboards
+- Power BI Dashboards
 
 ![Overview](Dashboards/PowerBI_Overview.png)
 
