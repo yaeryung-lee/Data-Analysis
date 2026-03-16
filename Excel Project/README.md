@@ -3,11 +3,11 @@
    - Full Analysis File: [Olist_Analysis.xlsx](https://github.com/Lia2606/Data-Analysis/releases/tag/v1.0)
 2. Dashboard Previews
 
-Excel Ad-hoc analysis Dashboard
+- Excel Ad-hoc analysis Dashboard
 
 ![Excel Dashboard](Dashboards/Ad-hoc_analysis_Dashboard.png)
 
-Power BI Dashboards
+= Power BI Dashboards
 
 ![Overview](Dashboards/PowerBI_Overview.png)
 
