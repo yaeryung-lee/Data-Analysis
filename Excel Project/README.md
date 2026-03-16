@@ -1,37 +1,39 @@
 # Olist E-commerce Analysis
-1. EDA: 99,441 orders from 96,096 unique customers
-   - Repeat Rate = 3.12% → 96.9% of customers never came back.
-2. Defining the Key Question: "Why do 97% of customers never return, and what can be done to improve customer lifetime value?"
-3. Building Hypothesis
+1. Key Questions & Findings
+2. Dashboard Previews
+3. Project Overview:
+   1) EDA: Profiled all 9 tables - row counts, blanks, 
+   unique values, descriptive statistics. 
+   ([See full profiling →])
+   Key discovery: 99,441 orders from 96,096 unique customers
+   2) Key Question: "Why do 97% of customers never return, and what can be done to improve customer lifetime value?"
+   3) Data Cleaning (uploaded as a file)
+   4) Building Hypothesis
    | Branch | Hypothesis | 
    |----------|----------|
    | Product  | Poor product quality drives dissatisfaction | 
    | Delivery | Shipping delays cause negative experiences | 
    | Platform | Payment friction or UX issues | 
    | Seller   | Unreliable sellers damage platform trust | 
-4. Data Cleaning (uploaded as a file)
-5. Testing Each Branch
+   5) Testing Each Branch
    - Product → Product quality was not the differentiator.
    - Delivery → Confirmed by the correlation with average review score.
    - Platform → Not a major factor.
    - Seller → Secondary risk.
-6. Quantifying the Impact: Improving repeat rate from 3% to 10% could generate ~$2.1M in additional GMV.
-7. The Causal Chain:
+   6) Quantifying the Impact: Improving repeat rate from 3% to 10% could generate ~$2.1M in additional GMV.
+   7) The Causal Chain:
    - Carrier Bottleneck → Delivery Delay → Review Score Collapse → Customer Does Not Return → Growth Depends Entirely on New Acquisition
-8. Strategic Recommendations:
+   8) Strategic Recommendations:
    - #1: Fix Delivery - Enforce carrier SLA with P90 target of 15 days (currently 22). Replicate SP's logistics model (8.3 days avg) in underperforming states (RJ: 14.7 days, BA: 18.8 days). Establish monthly OTDR monitoring dashboard.
      - KPI: OTDR 93.4% → 95%
    - #2: Convert First-Time Buyers - Category-based product recommendation emails at 2 weeks post-purchase. 10% discount coupon at 3 weeks. Reminder at 4 weeks. A/B test timing for optimization.
      - KPI: Repeat Rate 3.12% → 10%
    - #3: Manage Seller Quality - Automated monthly seller scorecard. Prioritize sellers with Review < 3.5 AND GMV top 20%. Apply visibility restrictions after 3 consecutive months below threshold.
      - KPI: Bottom 10% seller avg review → 3.5★
-9. Insight Communication: Both ad-hoc analysis and full analysis are uploaded.
+4. RFM Segmentation Summary
+5. Key Metrics
+6. Detailed Analysis
 
-Tools, Skills, Analytical Frameworks:
-   - Excel: Power query, Power pivot, Pivot tables, Data modeling, Formulas, Dashboard
-   - Power BI: DAX measures, Star schema, Dashboards
-   - AARRR Funnel, Marketplace Flywheel, RFM Segmentation, Prioritization Matrix, Pareto Analysis
-   
 Limitations:
 - GMV ≠ Olist revenue. Olist's take rate (commission %) is unknown.
 - Correlation ≠ causation. Delivery → review relationship (r = −0.30) is correlational, not causal.
@@ -41,4 +43,9 @@ Limitations:
 - Limited time range. Effective period: 2017 Q1 – 2018 Q3 (21 months).
 - Cohort retention analysis was not performed due to the extremely low repeat rate (3.12%); cohort matrices would be near-empty and add limited analytical value.
 
+Tools & Skills
+   - Excel: Power query, Power pivot, Pivot tables, Data modeling, Formulas, Dashboard
+   - Power BI: DAX measures, Star schema, Dashboards
+   - AARRR Funnel, Marketplace Flywheel, RFM Segmentation, Prioritization Matrix, Pareto Analysis
+   
 Data Source: Olist Brazilian E-commerce Dataset — 9 tables, 100K+ orders, Sept 2016 – Oct 2018.
