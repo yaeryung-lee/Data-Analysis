@@ -9,6 +9,7 @@
    2) #### Key Question: "Why do 97% of customers never return, and what can be done to improve customer lifetime value?"
    3) Data Cleaning (uploaded as a file)
    4) Building Hypothesis
+
 | Branch | Hypothesis |
 |--------|-----------|
 | Product | Poor product quality drives dissatisfaction |
