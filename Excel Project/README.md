@@ -3,7 +3,7 @@
 2. Dashboard Previews
 Excel Ad-hoc analysis Dashboard
 
-![Excel Dashboard] (Dashboards/Ad-hoc_analysis_Dashboard.png)
+![Excel Dashboard](Dashboards/Ad-hoc_analysis_Dashboard.png)
 
 Power BI Dashboard
 
