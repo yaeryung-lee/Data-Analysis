@@ -2,7 +2,7 @@
 1. Analysis Summary
    - Carrier shipping delays cause review scores to collapse, trapping 97% of customers as one-time buyers. 
    - Full Analysis File: [Olist_Analysis.xlsx](https://github.com/Lia2606/Data-Analysis/releases/tag/v1.0)
-3. Dashboard Previews
+2. Dashboard Previews
 
 - Excel Ad-hoc analysis Dashboard
 
@@ -18,7 +18,7 @@
 
 ![Strategic](Dashboards/PowerBI_Strategic.png)
 
-4. Project Overview:
+3. Project Overview:
    1) EDA: Profiled all 9 tables - row counts, blanks, 
    unique values, descriptive statistics. 
    [See full EDA profiling](./EDA_Screenshots/)
@@ -55,7 +55,7 @@
    - #3: Manage Seller Quality - Automated monthly seller scorecard. Prioritize sellers with Review < 3.5 AND GMV top 20%. Apply visibility restrictions after 3 consecutive months below threshold.
      - KPI: Bottom 10% seller avg review → 3.5★
        
-5. RFM Segmentation Summary
+4. RFM Segmentation Summary
 
 | Segment | Customers | Revenue Share |
 |---------|-----------|---------------|
@@ -68,7 +68,7 @@
 
 99.3% of customers are either New/Potential or Lost/Inactive. The New/Potential segment alone holds 40.5% of GMV; the single biggest conversion opportunity.
 
-7. Key Metrics
+5. Key Metrics
 
    Revenue & Sales
 
