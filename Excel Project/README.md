@@ -19,15 +19,15 @@
 ![Strategic](Dashboards/PowerBI_Strategic.png)
 
 3. Project Overview:
-      1) EDA: Profiled all 9 tables - row counts, blanks, 
+   1) EDA: Profiled all 9 tables - row counts, blanks, 
    unique values, descriptive statistics. 
    [See full EDA profiling](./EDA_Screenshots/)
    - Key discovery: 99,441 orders from 96,096 unique customers
-      2) #### Defining Question: "Why do 97% of customers never return, and what can be done to improve customer lifetime value?"
+   2) #### Defining Question: "Why do 97% of customers never return, and what can be done to improve customer lifetime value?"
       
-      3) Data Cleaning - [Data Cleaning Log & Key Insights (PDF)](./Olist_Data%20Cleaning%20Log%20&%20Key%20Insights.pdf)
+   3) Data Cleaning - [Data Cleaning Log & Key Insights (PDF)](./Olist_Data%20Cleaning%20Log%20&%20Key%20Insights.pdf)
       
-      4) Building Hypothesis
+   4) Building Hypothesis
    
    | Branch | Hypothesis |
    |--------|-----------|
@@ -36,14 +36,14 @@
    | Platform | Payment friction or UX issues |
    | Seller | Unreliable sellers damage platform trust |
    
-      5) Testing Each Branch
+   5) Testing Each Branch
    - Product → Product quality was not the differentiator.
    - Delivery → Supported by the correlation with average review score.
    - Platform → Not a major factor.
    - Seller → Secondary risk.
    - Detailed Analysis - [Data Cleaning Log & Key Insights (PDF)](./Olist_Data%20Cleaning%20Log%20&%20Key%20Insights.pdf)
 
-      6) Key Metrics
+   6) Key Metrics
 
    Revenue & Sales
 
@@ -86,7 +86,7 @@
 | GMV per Repeat Customer | $315.39 | 
 | First-time vs Repeat GMV Split | 94% vs 6% | 
 
-      7) RFM Segmentation Summary
+   7) RFM Segmentation Summary
 
 | Segment | Customers | Revenue Share |
 |---------|-----------|---------------|
@@ -99,12 +99,12 @@
 
 99.3% of customers are either New/Potential or Lost/Inactive. The New/Potential segment alone holds 40.5% of GMV; the single biggest conversion opportunity.
      
-      8) Quantifying the Impact: Improving repeat rate from 3% to 10% could generate ~$2.1M in additional GMV. (10% target assumes a conservative 3× improvement from current rate; typical marketplace repeat rates range 20-30%, making 10% a modest first milestone.)
+   8) Quantifying the Impact: Improving repeat rate from 3% to 10% could generate ~$2.1M in additional GMV. (10% target assumes a conservative 3× improvement from current rate; typical marketplace repeat rates range 20-30%, making 10% a modest first milestone.)
       
-      9) The Causal Chain:
+   9) The Causal Chain:
    - Carrier Bottleneck → Delivery Delay → Review Score Collapse → Customer Does Not Return → Growth Depends Entirely on New Acquisition
      
-      10) Strategic Recommendations:
+   10) Strategic Recommendations:
    - #1: Fix Delivery - Enforce carrier SLA with P90 target of 15 days (currently 22). Replicate SP's logistics model (8.3 days avg) in underperforming states (RJ: 14.7 days, BA: 18.8 days). Establish monthly OTDR monitoring dashboard.
      - KPI: OTDR 93.4% → 95%
    - #2: Convert First-Time Buyers - Category-based product recommendation emails at 2 weeks post-purchase. 10% discount coupon at 3 weeks. Reminder at 4 weeks. A/B test timing for optimization.
