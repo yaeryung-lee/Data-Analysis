@@ -42,9 +42,8 @@
    - Platform → Not a major factor.
    - Seller → Secondary risk.
    - Detailed Analysis - [Data Cleaning Log & Key Insights (PDF)](./Olist_Data%20Cleaning%20Log%20&%20Key%20Insights.pdf)
-   
-  
-   6) Key Metrics
+
+      6) Key Metrics
 
    Revenue & Sales
 
