@@ -11,7 +11,7 @@ Carrier shipping delays cause review scores to collapse, while a structurally lo
 ## Dashboard Previews
 
 ### Excel Ad-hoc Analysis Dashboard
-Dashboards/Ad-hoc_Analysis.png
+![Excel Ad-hoc Analysis](Dashboards/Ad-hoc_Analysis.png)
 
 ### Power BI Dashboards
 Dashboards/Overview.png
