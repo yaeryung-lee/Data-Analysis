@@ -4,7 +4,7 @@
 
 Carrier shipping delays cause review scores to collapse, while a structurally low repurchase rate reveals Olist as a transactional pipeline rather than a retention platform. Each problem requires a distinct strategic intervention.
 
-**Full Analysis File:** [Olist_Analysis.xlsx (98.48 MB) — GitHub Release v1.0](https://github.com/yaeryung-lee/Data-Analysis/releases/tag/v1.0)
+*++Full Analysis File:*** [Olist_Analysis.xlsx — GitHub Release v1.0](https://github.com/yaeryung-lee/Data-Analysis/releases/tag/v1.0)
 ---
 
 ## Dashboard Previews
