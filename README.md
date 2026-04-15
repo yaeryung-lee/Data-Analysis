@@ -1,7 +1,7 @@
 # Data Analysis Portfolio
 Entry-level Business Analyst portfolio demonstrating end-to-end analytical capability; from data cleaning to strategic recommendations.
 
-Projects:
+*Projects:*
 Olist E-commerce Marketplace Analysis
 Excel · Power BI · Statistical Testing
 Two problems, two different root causes — why do reviews collapse, and why do 97% of customers never return?
