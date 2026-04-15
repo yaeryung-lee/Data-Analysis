@@ -6,7 +6,7 @@ Entry-level Business Analyst portfolio demonstrating end-to-end analytical capab
 ### Olist E-commerce Marketplace Analysis
 *Excel · Power BI · Statistical Testing*
 
-**Two problems, two different root causes — why do reviews collapse, and why do 97% of customers never return?**
+**Two problems, two different root causes: why do reviews collapse, and why do 97% of customers never return?**
 
 Hypothesis-driven decomposition of 100K+ orders across 9 tables, with statistical validation (ANOVA, Chi-square, Pareto). Six hypotheses tested for the review-bipolarity problem, four for the retention problem. Output includes a 4-quadrant seller scorecard, RFM segmentation, and tiered intervention strategy.
 
