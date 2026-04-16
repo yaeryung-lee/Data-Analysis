@@ -32,7 +32,7 @@ Both problems follow the same 5-step process but produce independent conclusions
 ## Problem 1: Review Bipolarity
 
 ### EDA Finding
-69.3% of all reviews concentrate at 5-star or 1-star — middle scores are rare. The average review score is 4.02 out of 5, but the distribution is bimodal, not normal.
+69.3% of all reviews concentrate at 5-star or 1-star — middle scores are rare. The average review score is 4.02 out of 5, but the distribution is double-peaked, not normal.
 
 If service quality were uniformly good or bad, scores would cluster around the mean. Bipolarity implies a binary cause: something either works or fails dramatically. The question is which operational dimension creates that split.
 
@@ -86,7 +86,7 @@ This hypothesis was tested through three layers of analysis, each building on th
 | Both (Freight + Late) | 2.2 | 1,092 |
 | Normal | 4.2 | 77,474 |
 
-Reviews collapse only when delay is present — regardless of freight cost. "High Freight Only" orders score 4.2 (normal), while "Late Only" drops to 2.3. Adding high freight to a late order barely changes the score (2.2 vs 2.3). Customers tolerate expensive shipping; they punish broken delivery promises.
+Reviews collapse only when delay is present regardless of freight cost. "High Freight Only" orders score 4.2 (normal), while "Late Only" drops to 2.3. Adding high freight to a late order barely changes the score (2.2 vs 2.3). Customers tolerate expensive shipping; they punish broken delivery promises.
 
 This rejection became the bridge to H6. Rather than a dead-end null result, the three-layer test isolated delivery delay as the operative variable, naturally directing the analysis toward H6.
 
@@ -101,15 +101,15 @@ This rejection became the bridge to H6. Rather than a dead-end null result, the 
 | 4-7 Days Late | 1,756 | 2.10 |
 | 7+ Days Late | 2,798 | 1.70 |
 
-**Result:** Statistically significant differences across all groups, confirming a threshold effect. The initial 1-3 day delay triggers the sharpest drop (1.0 point), with progressively smaller additional declines as delay lengthens. This dose-response pattern strengthens the causal interpretation.
+**Result:** Statistically significant differences across all groups, confirming a threshold effect. The initial 1-3 day delay triggers the sharpest drop (1.0 point), with progressively smaller additional declines as delay lengthens. This pattern strengthens the correlated interpretation.
 
-Pearson correlation between delivery days and review score was weak (r = -0.30), which would have suggested a minor relationship. ANOVA on grouped data revealed the actual shape: a non-linear threshold effect rather than a smooth gradient. Linear regression alone would have missed this. Delivery delay operates as a binary trust event — the strategy must prevent delays from happening, not just minimize their length.
+Pearson correlation between delivery days and review score was weak (r = -0.30), which would have suggested a minor relationship. ANOVA on grouped data revealed the actual shape: a non-linear threshold effect rather than a smooth gradient. Linear regression alone would have missed this. Delivery delay operates as a binary trust event; the strategy must prevent delays from happening, not just minimize their length.
 
 ### Deeper Analysis: Seller Pareto
 
-Before recommending a blanket delivery buffer, tested whether delays are platform-wide or concentrated among specific sellers.
+Before recommending a delivery buffer, tested whether delays are platform-wide or concentrated among specific sellers.
 
-**Result:** 13.3% of sellers (394 out of 2,970) generate 80% of all late deliveries. This is tighter than the standard 80/20 Pareto, meaning seller-targeted intervention is highly viable. A blanket buffer policy would over-correct for the 87% of sellers already performing well.
+**Result:** 13.3% of sellers (394 out of 2,970) generate 80% of all late deliveries. This is tighter than the standard 80/20 Pareto, meaning seller-targeted intervention is highly viable. An unconditional buffer policy would over-correct for the 87% of sellers already performing well.
 
 ### Cross-Analysis: GMV × Late Orders (4-Quadrant Seller Matrix)
 
