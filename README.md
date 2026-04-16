@@ -12,7 +12,7 @@ Hypothesis-driven decomposition of 100K+ orders across 9 tables, with statistica
 
 Key findings:
 
-Review collapse is driven by carrier shipping delays, not seller fulfillment; 13% of sellers cause 80% of late deliveries.
-Low retention is structural (platform-identity), not operational — even 5-star reviewers don't return.
+Review collapse is driven by shipping delays; 13% of sellers cause 80% of late deliveries.
+Low retention is structural (platform-identity), not operational; even 5-star reviewers don't return.
 
 **→** [View project](https://github.com/yaeryung-lee/Data-Analysis/tree/main/Olist_E-commerce_Project)
