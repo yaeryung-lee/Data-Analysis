@@ -4,7 +4,7 @@ Entry-level Business Analyst portfolio demonstrating end-to-end analytical capab
 ## Projects
 
 ### Olist E-commerce Marketplace Analysis
-*Excel · Power BI · Statistical Testing*
+*Excel · Power Query · Power Pivot · Power BI · Statistical Testing*
 
 **Two problems, two different root causes: why do reviews collapse, and why do 97% of customers never return?**
 
