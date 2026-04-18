@@ -32,9 +32,8 @@ Both problems follow the same 5-step process but produce independent conclusions
 ## Problem 1: Review Bipolarity
 
 ### EDA Finding
-69.3% of all reviews concentrate at 5-star or 1-star — middle scores are rare. The average review score is 4.02 out of 5, but the distribution is double-peaked, not normal.
-
-If service quality were uniformly good or bad, scores would cluster around the mean. Bipolarity implies a binary cause: something either works or fails dramatically. The question is which operational dimension creates that split.
+88.6% of all reviews are either satisfied or highly dissatisfied; middle scores are rare. 
+Bipolarity implies a binary cause: something either works or fails dramatically. The question is which operational dimension creates that split.
 
 ### Hypothesis Tree
 
