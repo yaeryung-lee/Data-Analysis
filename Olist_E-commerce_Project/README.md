@@ -47,7 +47,7 @@ Six potential drivers were identified from EDA and tested individually.
 | H4 | Product vs. service dissatisfaction | Logistics issues account for over 50% of 1-star reviews (Not Received + Missing + Late = 54.2%) | ACCEPTED |
 | H5 | Delivery delay | ANOVA: significant threshold effect | **VALIDATED** |
 
-### Rejected Hypothesis Deep-Dive: H2 — Geographic Imbalance & Freight Cost
+### Rejected Hypothesis Deep-Dive: H1 — Geographic Imbalance & Freight Cost
 
 Sellers don't exist in 4 of 27 states, while customers exist in every state. Long-distance shipping to remote states could inflate freight costs and delivery times, ultimately driving review drops.
 
