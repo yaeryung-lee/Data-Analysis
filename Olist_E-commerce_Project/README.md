@@ -41,12 +41,11 @@ Six potential drivers were identified from EDA and tested individually.
 
 | # | Hypothesis | Method | Result |
 |---|---|---|---|
-| H1 | Missing delivery date data | Count check: only 3% of orders | REJECTED |
-| H2 | Geographic imbalance & freight cost | 3-layer test (state, freight, combined) | REJECTED |
-| H3 | Missing product info | Count check: only 1.85% of products | REJECTED |
-| H4 | Payment failures | Structurally excluded from delivered orders | REJECTED |
-| H5 | Price-satisfaction mismatch | Freight burden + category review comparison | REJECTED |
-| H6 | Delivery delay | ANOVA: significant threshold effect | **VALIDATED** |
+| H1 | Geographic imbalance & freight cost | 3-layer test (state, freight, combined) | REJECTED |
+| H2 | Missing product info | Count check: only 1.85% of products | REJECTED |
+| H3 | Payment failures | Structurally excluded from delivered orders | REJECTED |
+| H4 | Product vs. service dissatisfaction | Logistics issues account for over 50% of 1-star reviews (Not Received + Missing + Late = 54.2%) | ACCEPTED |
+| H5 | Delivery delay | ANOVA: significant threshold effect | **VALIDATED** |
 
 ### Rejected Hypothesis Deep-Dive: H2 — Geographic Imbalance & Freight Cost
 
